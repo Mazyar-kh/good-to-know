@@ -1,0 +1,3 @@
+select firstName from customer where customer.customer.id=order.customer.id and order.Date=('2023-12-25 00:00:00');
+
+update customer set firstName = 'hasan' where firstName = 'ali';
